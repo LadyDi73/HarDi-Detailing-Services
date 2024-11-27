@@ -3,15 +3,21 @@ body{
     font-family: "Prompt", sans-serif;
 }
 
-h1{color:  rgb(3,4,94);font-size: 75px;}
+h1{color:  rgb(3,4,94);font-size: 300%; text-align: center;}
 
-h2{color: rgb(3,4,94);font-size: 40px}
+h2{color: rgb(3,4,94);font-size: 30px; text-align: center;}
 
-h3{color: rgb(33,37,41);font-size: 30px}
+h3{color: rgb(33,37,41);font-size: 25px; font-weight:bold ; line-height: 0;}
 
-h4{color: rgb(33,37,41);}
+h4{color: rgb(33,37,41); font-style: italic;font-weight: normal; line-height: 0;}
 
-p{color: rgb(3,4,94);font-size: 40px}
+footer figcaption{font-size: 70%}
+
+footer h3 {text-align: center;text-align: right;}
+
+footer p{color: rgb(3,4,94);font-size: 20px; text-align: right;}
+
+p{color:rgb(3,4,94);font-size: 20px;text-align: center;}
 
 li{color:black;font-size: medium;}
 
