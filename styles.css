@@ -1,24 +1,36 @@
 body{
     background-color:rgb(248,249,250);
-    font-family: "Prompt", sans-serif;}
+    font-family: "Prompt", sans-serif, Arial, Helvetica, sans-serif;}
 
 *{box-sizing: border-box;}
 
-h1{color:  rgb(3,4,94);font-size: 300%; text-align: center;}
+header {background-image: url("./images/header.jpg"); width: 100%; height: 80px;}
 
-.about{color:  rgb(3,4,94); font-size: 30px; text-align:center; margin: 0px 50px;border: 4px;padding: 20px 20px;}
+.car{text-align: center;}
 
-h2{color: rgb(3,4,94);font-size: 30px; text-align: center;}
+h1{color:  rgb(248,249,250);font-size: 300%; text-align: center; margin: 10PX 10px; border: 2PX; padding: 0%;}
 
-.interior{margin: 10px 500px 10px 10px;border: 2px;padding: 20px 20px;}
+.about{background-image: url("./images/header.jpg"); width: 100%; height: 170px; color: rgb(248,249,250); font-size: 30px; text-align:center; margin: 0px 0px;border: 4px;padding: 5px 5px;}
 
-.exterior{margin: 10px 500px 10px 10px;border: 2px;padding: 20px 20px;}
+.detail{text-align: center; margin: 25px 25px;border: 2px;padding: 10px 10px;}
 
-.complete{text-align:center; margin: 0px 50px;border: 4px solid lightblue;padding: 10px 20px;}
+h2{color: rgb(3,4,94);font-size: 50px; text-align: center;}
 
-h3{color: rgb(33,37,41);font-size: 25px; font-weight:bold ; line-height: 0;}
+.beforeafter{text-align: center; margin: 25px 25px;border: 2px;padding: 10px 10px;}
 
-h4{color: rgb(33,37,41); font-style: italic;font-weight: normal; line-height: 0;}
+.exterior{float: left; width: 45%; padding: 15px;margin: 10px 10px 10px 30px;border: 3px; padding: 10px;}
+
+.interior{float: right; width: 45%; padding: 15px; margin: 10px 10px;border: 3px; padding: 10px;}
+
+.complete{display: table; clear:both;text-align:center; width:100%;border: 4px solid lightblue;padding: 10px 10px;}
+
+h3{color: rgb(33,37,41);font-size: 30px; font-weight:bold ; line-height: 0;}
+
+h4{color: rgb(33,37,41); font-style: italic;font-size: 20px; font-weight: normal; line-height: 0;}
+
+.choose{color: rgb(3,4,94);font-size: 30px; text-align: center}
+
+.russ{background-color: lightgray; font-size: 20px; margin: 10px 10px 10px 150px;border: 2px;padding: 10px 20px;}
 
 .dean{font-size: 20px; margin: 10px 150px 10px 10px;border: 2px;padding: 10px 20px;}
 
@@ -28,12 +40,18 @@ h4{color: rgb(33,37,41); font-style: italic;font-weight: normal; line-height: 0;
 
 .justin{background-color: lightgray; font-size: 20px; margin: 10px 10px 10px 150px;border: 2px;padding: 10px 20px;}
 
+.calendar{text-align: center;}
+
+footer{background-image: url("./images/header.jpg"); width: 100%; height: 115px;}
+
 footer figcaption{font-size: 70%}
 
-footer h3{text-align: center;text-align: right;}
+footer h2{color: rgb(248,249,250);font-size: 20px; text-align: center;}
 
-footer p{color: rgb(3,4,94);font-size: 20px; text-align: right;}
+footer h3{color: rgb(248,249,250);font-size: 20px; text-align: center;;}
 
-li{color:black;font-size: medium;}
+footer p{color: rgb(248,249,250);font-size: 20px; text-align: center;}
 
-a{color: black;font-size: medium;}
+li{color:black;font-size:30px}
+
+a{color: rgb(3,4,94);font-size:medium;}
